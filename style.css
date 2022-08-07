@@ -1,0 +1,79 @@
+body{
+    background-image: url(./background_image.jpg);
+
+}
+
+.container{
+    color: white;
+    width: 450px;
+    margin: auto;
+}
+
+.baslik{
+    text-align: center;
+}
+
+.main{
+    
+    background-color: rgba(0, 0, 0, 0.749);
+    padding: 10px 60px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px red;
+
+}
+
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0px;    
+    text-shadow: 1px 1px 8px red;
+}
+
+.flix{
+    color:red;
+    margin:0px;
+    padding: 0px;
+}
+
+p{
+    font-weight: bold;
+    text-shadow: 1px 1px 8px red;
+    margin-top: 10px;
+
+}
+
+label{
+   line-height: 25px;
+   text-shadow: 1px 1px 8px red;
+
+}
+
+#name, #age, #email{
+    width: 300px;
+    padding: 15px;
+    margin-top: 1px;
+    margin-bottom: 7px;
+}
+
+#Content_Type{
+    width: 220px;
+    padding: 10px;
+}
+
+.submit{
+    margin: 15px 90px 15px 90px;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid red;
+    width: 100px;
+    height: 35px;
+
+}
+
+.submit:hover{
+    background-color: gray;
+}
